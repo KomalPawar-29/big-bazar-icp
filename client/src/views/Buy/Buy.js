@@ -64,11 +64,11 @@ export default function Buy() {
           <h1>₹ {product.price}</h1>
 
           <div className='quantity-container'>
-            <img src={ImgDec} onClick={decreaseQuantity} className='quantity-btn' />
+            <img src={ImgDec} onClick={decreaseQuantity} className='dec-btn' />
 
             <span className='quantity-text'>{quantity}</span>
 
-            <img src={ImgInc} onClick={increaseQuantity} className='quantity-btn' />
+            <img src={ImgInc} onClick={increaseQuantity} className='inc-btn' />
           </div>
 
           <input type='text'

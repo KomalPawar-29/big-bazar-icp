@@ -14,9 +14,15 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
   
-  .quantity-btn{
+  .dec-btn{
     height: 40px;
     width: 40px;
+    cursor: pointer;
+  }
+
+  .inc-btn{
+    height: 50px;
+    width: 50px;
     cursor: pointer;
   }
   
