@@ -80,7 +80,7 @@ export default function Buy() {
           }} />
 
 
-          <button type='button'
+            <button type='button'
             className='buy-btn'
             onClick={placeOrder}
             >
