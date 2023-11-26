@@ -22,9 +22,6 @@ connectMongoDB();
 
 app.post('/product', async (req,res)=>{
 
-    // const name = req.body.name;
-    // const price = req.body.price;
-    // const description = req.body.description;
     const {name, price, description, image } = req.body;
 
     const product = new Product({
